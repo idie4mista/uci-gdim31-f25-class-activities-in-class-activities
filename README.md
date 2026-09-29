@@ -1,10 +1,16 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+	Hello, its me
+	anyway
 
+	A1: If you un-parent the camera from the cat, The player will still be able to control the kitty, however the camera doesn't follow the cat and the player can only watch as the kitty runs off into the horizon
+[here's my move fast and turn slowly simulator](https://chezzthebat.itch.io/gdim31-w1-activity)
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+
+### Week 3
+Jarona
 
 ## Open-Source Assets
 ### W1
