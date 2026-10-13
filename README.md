@@ -20,8 +20,14 @@ Table 15 (Ngl, I should've sat somewhere else. I didn't know it was the table th
 	Q3: use a float and string first to check if the player had hit the note. It would return the data based on if the player hit it at the right time. String, to give the player the visual feedback such as "Miss" or "Perfect" or a float to tell the player the delay in miliseconds.
 Part 2:
 (let me preface this that another table group had the same exact idea)
+	
 	A class is the equilivant of a recipe for a dish. The finished dish is the result of all the code inside of the class, aka the component. The class contains instructions like a recipe, like method calling, and variables are the measurements. 
+		Part 3:
+		The Balls are getting incredibly bright because their color values are being controlled by their velocity.
 ## Open-Source Assets
+
+
+
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 
