@@ -14,12 +14,12 @@ If i remember correctly, step 4, aka line 67, had a syntax error. That error was
 ## Week 3
 ### Part 1
 Table 15 (Ngl, I should've sat somewhere else. I didn't know it was the table that the LAs used. I will choose a different table next week :p.)
-	Q1: Firstly, start with a string type to get the response. The body should check the current player's friendship level with an if statement and return with the right data.
+Q1: Firstly, start with a string type to get the response. The body should check the current player's friendship level with an if statement and return with the right data.
 
 	The flag can be returned from a bool type. the bool is marked as true or false, and the body reads if the bool is 
-	Q2: Firstly, the return type is void. Declare the signature as an float that includes the current light level as a decimal and the player's sanity, then run a calculation in the body to calculate what the light dimness should be based on those two numbers, then the light level is changed.
+Q2: Firstly, the return type is void. Declare the signature as an float that includes the current light level as a decimal and the player's sanity, then run a calculation in the body to calculate what the light dimness should be based on those two numbers, then the light level is changed.
 
-	Q3: use a float and string first to check if the player had hit the note. It would return the data based on if the player hit it at the right time. String, to give the player the visual feedback such as "Miss" or "Perfect" or a float to tell the player the delay in miliseconds.
+Q3: use a float and string first to check if the player had hit the note. It would return the data based on if the player hit it at the right time. String, to give the player the visual feedback such as "Miss" or "Perfect" or a float to tell the player the delay in miliseconds.
 
 ### Part 2:
 (let me preface this that another table group had the same exact idea)
