@@ -30,7 +30,16 @@ A class is the equal of a recipe for a dish. The finished dish is the result of 
 Part 3: The Balls are getting incredibly bright because their color values are being controlled by their velocity.
 ## Open-Source Assets
 
+## Week 4
 
+Table Number, I forgot, but I was there. 
+I might've hallucinated the fact that Prof. Reid told us not to do the devlog for that week, which is why I didn't
+
+Cat and the Soccer ball need to have a rigidbody component as that's what allows for physics simulation to be enabled on the gameobject. In other words, Unity's engine calculates gravity for us with Rigidbody, so we don't have to. 
+
+The Goalpost should have the IsTrigger collider set, as the player and the ball should be able to pass through.
+
+The cat's character was moving randomly, but this was done by going into the rigidbody component and enabling static movement on the rotation so that It wouldn't roll off of the play area. 
 
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
