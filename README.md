@@ -28,7 +28,6 @@ Q3: use a float and string first to check if the player had hit the note. It wou
 A class is the equal of a recipe for a dish. The finished dish is the result of all the code inside of the class, aka the component. The class contains instructions like a recipe, like method calling, and variables are the measurements. 
 
 Part 3: The Balls are getting incredibly bright because their color values are being controlled by their velocity.
-## Open-Source Assets
 
 ## Week 4
 
@@ -41,6 +40,7 @@ The Goalpost should have the IsTrigger collider set, as the player and the ball 
 
 The cat's character was moving randomly, but this was done by going into the rigidbody component and enabling static movement on the rotation so that It wouldn't roll off of the play area. 
 
+## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 
