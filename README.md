@@ -40,7 +40,7 @@ The Goalpost should have the IsTrigger collider set, as the player and the ball 
 
 The cat's character was moving randomly, but this was done by going into the rigidbody component and enabling static movement on the rotation so that It wouldn't roll off of the play area. 
 
-## Week 5
+## Week 5/6
 
 Part 1:
 
@@ -67,7 +67,6 @@ if it isnt there, then use NavMeshAgent.SetDestination(target.position) to tell 
 
 
 
-## Week 6 
 
 
 
