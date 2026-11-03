@@ -40,6 +40,37 @@ The Goalpost should have the IsTrigger collider set, as the player and the ball 
 
 The cat's character was moving randomly, but this was done by going into the rigidbody component and enabling static movement on the rotation so that It wouldn't roll off of the play area. 
 
+## Week 5
+
+Part 1:
+
+First, Need to make the Deer class first by something like public class deer. Since it is a script, it must be attached to : monobehaviour. 
+
+EX: public class Deer : Monobehaviour { }
+
+next, [SerializeField] transform Target, so that Target appears in the inspector. 
+
+Left it undefined, since we're putting it in the inspector. It's the mushroom, so that's what I set it to.
+
+use a Start() method to define NavMeshAgent agent = Getcomponent<NavMeshAgent>();
+
+
+next, an Update() method helps control movement every frame. I'll use an if statement to check if the deer has moved it's destination. 
+if it isnt there, then use NavMeshAgent.SetDestination(target.position) to tell NavMeshAgent to walk towards the shroom.
+
+
+
+
+
+
+
+
+
+
+## Week 6 
+
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

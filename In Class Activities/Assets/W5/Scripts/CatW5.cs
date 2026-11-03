@@ -28,9 +28,9 @@ public class CatW5 : MonoBehaviour
         // Ask yourself:
         //      Which axis moves the cat forwards and backwards?
         //      Which Vector3 static property would be useful here based on
-        //          changing that axis?
+        //          changing that axis? Forwards and Backwards
         //      Should I modify translation with Vector addition, or multiplication,
-        //          or both?
+        //          or both? Addition
         //
         // STEP 2
         // After Step 1 is working, add more code to make it possible to flip
@@ -41,10 +41,11 @@ public class CatW5 : MonoBehaviour
         //      OPPOSITE value, so that W moves the player backwards and S moves
         //      them forwards.
         //
-        // MULTIPLY one of your vectors with a certain value to do this. >:)
+        // MULTIPLY one of your vectors with a certain value to do this. >:) * -1
+
 
         Vector3 translation = Vector3.zero;
-        
+
 
 
         // STEP 1 & 2 ---------------------------------------------------------
@@ -60,5 +61,23 @@ public class CatW5 : MonoBehaviour
         {
             _animator.SetBool(_isWalkingName, false);
         }
+
+        if (_flipWSControls == true)
+        {
+            translation *= -1;
+        }
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            translation.z = 1;
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            translation.z = -1;
+        }
+        transform.Translate(translation * _moveSpeed * Time.deltaTime);
+
+        
     }
 }
