@@ -59,6 +59,24 @@ next, an Update() method helps control movement every frame. I'll use an if stat
 if it isnt there, then use NavMeshAgent.SetDestination(target.position) to tell NavMeshAgent to walk towards the shroom.
 
 
+## Week 7
+
+Category assignment was Unity Engine and Coding
+https://docs.google.com/document/d/1DUb0ZVZJBBIqPJSFtK6_nH29tdpE0G2-kc8Innu8HuY/edit?usp=sharing
+
+Script already had Monobehavior class 
+Serialize Field a speed variable
+
+There should be 3 methods:
+
+Have an void update method that checks if the player has left the bat's range. Another one that does the opposite, where it checks if the player has entered the range of a bat. 
+
+These 2 methods will check for collision. If the player is colliding then the bat will start chasing the player by transforming it's position to the players using the movespeed and time.deltatime 
+
+
+A start method for convience for testing, that calls for the methods (temporarily) 
+
+Part 1: 
 
 
 
