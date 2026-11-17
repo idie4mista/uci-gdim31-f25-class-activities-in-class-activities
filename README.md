@@ -79,26 +79,6 @@ A start method for convience for testing, that calls for the methods (temporaril
 Part 1: 
 
 
-<<<<<<< Updated upstream
-## Week 7
-
-Category assignment was Unity Engine and Coding
-https://docs.google.com/document/d/1DUb0ZVZJBBIqPJSFtK6_nH29tdpE0G2-kc8Innu8HuY/edit?usp=sharing
-
-Script already had Monobehavior class 
-Serialize Field a speed variable
-
-There should be 3 methods:
-
-Have an void update method that checks if the player has left the bat's range. Another one that does the opposite, where it checks if the player has entered the range of a bat. 
-
-These 2 methods will check for collision. If the player is colliding then the bat will start chasing the player by transforming it's position to the players using the movespeed and time.deltatime 
-
-
-A start method for convience for testing, that calls for the methods (temporarily) 
-
-Part 1: 
-
 
 ## Week 8 
 
@@ -110,20 +90,7 @@ in short, transform.position is was only looking at the Z axis, while transform.
 
 
 
-awadawwddwd
-=======
-## Week 8 
->>>>>>> Stashed changes
 
-The code in Step 2 was incorrect because it was setting transform.position to the sum of itself plus (movement * Vector3.forward * _moveSpeed * Time.deltaTime)
-
-in other words, this was setting the direct position of the muskrat using Vector3.forward aka (0,0,1), meaning that it was moving it on the world's Z, not moving the Muskrat to its relative (local) Z. 
-
-in short, transform.position is was only looking at the Z axis, while transform.Translate focused on the local scale.
-
-
-
-awadawwddwd
 
 
 
