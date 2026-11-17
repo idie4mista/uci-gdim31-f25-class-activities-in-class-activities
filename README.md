@@ -79,6 +79,7 @@ A start method for convience for testing, that calls for the methods (temporaril
 Part 1: 
 
 
+<<<<<<< Updated upstream
 ## Week 7
 
 Category assignment was Unity Engine and Coding
@@ -110,7 +111,19 @@ in short, transform.position is was only looking at the Z axis, while transform.
 
 
 awadawwddwd
+=======
+## Week 8 
+>>>>>>> Stashed changes
 
+The code in Step 2 was incorrect because it was setting transform.position to the sum of itself plus (movement * Vector3.forward * _moveSpeed * Time.deltaTime)
+
+in other words, this was setting the direct position of the muskrat using Vector3.forward aka (0,0,1), meaning that it was moving it on the world's Z, not moving the Muskrat to its relative (local) Z. 
+
+in short, transform.position is was only looking at the Z axis, while transform.Translate focused on the local scale.
+
+
+
+awadawwddwd
 
 
 

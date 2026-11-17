@@ -79,7 +79,7 @@ public class BatManager : MonoBehaviour
             
             float distance = Vector3.Distance(_bats[i].transform.position, _playerTransform.transform.position);
 
-            if (distance >= _interactDistance)
+            if (distance <= _interactDistance)
             {
                 _bats[i].StartChase();
             }

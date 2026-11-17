@@ -9,13 +9,13 @@ public class BatW6 : MonoBehaviour
     private float _time;
     public void StopChase()
     {
-        
-        batSpeed = 0;
+
+        enabled = false;
     }
 
     public void StartChase()
     {
-        transform.position = _playerTransform.position;
+        enabled = true;
     }
    private void Update()
     {
