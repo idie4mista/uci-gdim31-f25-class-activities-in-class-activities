@@ -89,7 +89,11 @@ in other words, this was setting the direct position of the muskrat using Vector
 in short, transform.position is was only looking at the Z axis, while transform.Translate focused on the local scale.
 
 
+## Week 9
 
+Google Drawing Link:  https://docs.google.com/drawings/d/1n_HUxweaknAF5YEwXf-8vnfUesHdTB-Y750CszYdGYg/edit
+
+After the lecture, I used the rest of class time to set up the tilemap environment. I added a background, a floor, borders, and platforms that will become the main level. Currently, this is all I have, however I will be working more later tonight. 
 
 
 
